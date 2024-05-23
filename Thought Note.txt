@@ -1,0 +1,50 @@
+___________________________________________________Thought Note_____________________________________________________
+
+The folder structure of the To Do List App is as follows:
+
+TODOLIST/	
+|
+|--backend
+|     |--controllers
+|          |--task.js
+|     |--middleware
+|          |--auth.js
+|     |--models
+|          |--Task.js
+|     |--routes
+|          |--taskRoutes.js
+|     app.js
+|     .env
+|--frontend
+|     |--public
+|        |--..
+|     |--src
+|        |--App.js
+|        |--App.css
+|        |--index.js
+|        |--index.css
+|    
+
+In this project I have used the React command to build an app and start the app using the commands as follows:
+>> npx create-react-app <appName> (for creating app)
+>> npm i OR npm install (for node_modules folder)
+>> npm init -y (to initialize package.json file)
+>> npm start (for starting the app)
+
+It is a kind of E-planner which is used to add the tasks or making a to do list.In which a user can add the tasks using the add to task button. 
+
+The App.css file is used for styling the app. Then we have to create the front view of the app using html, css and other technologies for building the front view of the app. The HandleAddTask Hook is used for Adding tasks, so that user can add tasks by using array so that tasks can be added without any limit. Along with this various Hooks are being used like useState.
+
+Controllers handle user input, manage application flow, and encapsulate business logic in web development, promoting code organization, separation of concerns, and reusability.
+
+Models in web development represent the application's data and business logic. They interact with databases, encapsulate data-related operations, and ensure data integrity and structure.
+
+Middleware in web development acts as a bridge between the client and server. It handles request processing, performs tasks like authentication, and enhances server functionality.
+
+Routes in web development define the endpoints and actions of an application. They handle HTTP requests, directing them to the appropriate controllers for processing and response.
+
+'app.js' is the entry point in a Node.js application. It initializes server configurations, middleware, models, controllers, routes, and connects various components to start the application.
+
+In .env file there exists the MONGODB url to connect with then database, the port  number for server and secret key used in jwt
+
+After restarting the application or refreshing the page the old node persist data will get deleted.

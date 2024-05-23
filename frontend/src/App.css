@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Playfair Display';
+}
+
+.todo-container {
+  background-color: rgb(76, 0, 99);
+  padding: 20px;
+  text-align: center;
+}
+
+.main-heading {
+  color: #ffffff;
+  /* Set the color of the heading */
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.labelTask {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: rgb(222, 149, 245);
+  font-weight: bold;
+  font-family: 'Playfair Display';
+}
+
+input {
+  padding: 10px;
+  width: 900px;
+  margin-right: 0.1px;
+  font-family: 'Playfair Display';
+}
+
+button {
+  padding: 12px;
+  cursor: pointer;
+  background-color: rgb(222, 149, 245);
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-weight: bold;
+  font-family: 'Playfair Display';
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.task-list li {
+  margin: 10px 0;
+}
+
+/* Existing styles remain unchanged */
+
+.task-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+/* Existing styles remain unchanged */
+
+.task-list {
+  display: grid;
+}
+
+.task-box {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(200, 47, 247);
+  flex: 0 0 calc(33.33% - 20px);
+  /* Set each box to be 33.33% wide with margin */
+  box-sizing: border-box;
+}
